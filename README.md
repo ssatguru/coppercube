@@ -2,15 +2,15 @@
 
 ## Plugins
 ### orbitalCamera  
-An editor plugin to orbit (horizontally or vertically) the editor's perspective camera around a selected object.  
+An editor plugin to orbit (horizontally or vertically) the editor's perspective camera around a selected object using "wasd" keys.  
   
 Keys  
-"a" - orbit left  
-"d" - orbit right  
-"w" - oribit up  
-"s" - orbit down  
+- a - orbit left  
+- d - orbit right  
+- w - orbit up  
+- s - orbit down  
 
-Pressing on of the above key, focuses the camera on the selected object and orbits the camera by 10 degree around it.  
+Pressing one of the above key, focuses the camera on the selected object and orbits the camera by 10 degree around it.  
 If no object is selected  the camera orbits around its target point.  
   
 To change the keys or the amount by which the camera oribits, edit the following lines in the "orbitalCamera.js" file.  
@@ -22,10 +22,10 @@ To change the keys or the amount by which the camera oribits, edit the following
 
 To install the plugin 
 - download "Source Code (zip or tar.gz)" from https://github.com/ssatguru/CopperCubeStuff/releases
-- extract "orbitalCamera.js" file and copy it to  
-   your Documents\CopperCube\plugins on Windows  
+- extract "orbitalCamera.js" file and copy it to your
+   "Documents\CopperCube\plugins" folder on Windows  
    or  
-   ~/Documents/CopperCube/plugins on macOS 
+   "~/Documents/CopperCube/plugins" folder on macOS 
 - restart CopperCube
 
 
