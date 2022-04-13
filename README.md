@@ -10,8 +10,9 @@ Keys
 "w" - oribit up  
 "s" - orbit down  
 
-A key press, orbits the camera by 10 degree.  
-
+Pressing on of the above key, focuses the camera on the selected object and orbits the camera by 10 degree around it.  
+If no object is selected  the camera orbits around its target point.  
+  
 To change the keys or the amount by which the camera oribits, edit the following lines in the "orbitalCamera.js" file.  
   
     editorRegisterMenuEntry("orbitCameraH(-10)", "orbit camera left\tShift+A");  
