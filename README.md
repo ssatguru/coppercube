@@ -22,7 +22,7 @@ To change the keys or the amount by which the camera oribits, edit the following
 
 To install the plugin 
 - download "Source Code (zip or tar.gz)" from https://github.com/ssatguru/CopperCubeStuff/releases
-- extract "orbitalCamera.js" file and copy it to your
+- extract "orbitalCamera.js" file and copy it to your  
    "Documents\CopperCube\plugins" folder on Windows  
    or  
    "~/Documents/CopperCube/plugins" folder on macOS 
