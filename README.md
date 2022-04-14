@@ -2,13 +2,13 @@
 
 ## Plugins
 ### orbitalCamera  
-An editor plugin to orbit (horizontally or vertically) the editor's perspective camera around a selected object using "wasd" keys.  
+An editor plugin to orbit (horizontally or vertically) the editor's perspective camera around a selected object using shift and "wasd" keys.  
   
 Keys  
-- a - orbit left  
-- d - orbit right  
-- w - orbit up  
-- s - orbit down  
+- shift a - orbit left  
+- shift d - orbit right  
+- shift w - orbit up  
+- shift s - orbit down  
 
 Pressing one of the above keys, focuses the camera on the selected object and orbits the camera by 10 degree around it.  
 If no object is selected  the camera orbits around its target point.  
