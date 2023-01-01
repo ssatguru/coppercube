@@ -1,5 +1,5 @@
 // Author: Satguru P Srivastava
-// Version: 1.0.0 (4/13/2022)
+// Version: 1.0.1 (1/1/2023)
 // license: CopperCube extension script License
 
 function findCamera(name) {
@@ -27,7 +27,7 @@ function orbitCameraH(angle) {
   let cameraNode = findCamera("Perspective");
 
   let sn = editorGetSelectedSceneNode();
-  let snp = ccbGetSceneNodeProperty(sn, "Position");
+  let snp = ccbGetSceneNodeProperty(sn, "PositionAbs");
   if (snp) {
     ccbSetSceneNodeProperty(cameraNode, "Target", snp.x, snp.y, snp.z);
   }
@@ -65,7 +65,7 @@ function orbitCameraV(angle) {
 
   //focus on selected node
   let sn = editorGetSelectedSceneNode();
-  let snp = ccbGetSceneNodeProperty(sn, "Position");
+  let snp = ccbGetSceneNodeProperty(sn, "PositionAbs");
   if (snp) {
     ccbSetSceneNodeProperty(cameraNode, "Target", snp.x, snp.y, snp.z);
   }
